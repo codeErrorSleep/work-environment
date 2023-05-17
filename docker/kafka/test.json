@@ -1,0 +1,22 @@
+{
+    "app_id":"appm00slggh2325",
+    "resource_id":"course_22Lfu9cWYUJP1ssHiPEoxKabBdU",
+    "resource_type":50
+    "attach_goods_info": [
+        {
+            "attach_resource_id": "a_61b9569760b25084acc4ae66",
+            "resource_id": "a_61b9569760b25084acc4ae66",
+            "attach_resource_type": 2,
+            "resource_type": 2,
+            "sku_id": "",
+            "sku_stock": 0,
+            "sku_price": "",
+            "goods_img": "https://wechatapppro-1252524126.file.myqcloud.com/appm00slggh2325/image/b_u_60ffb2483adcc_TzLT5Ta7/kwnbj5vp0xfx.jpeg",
+            "name": "11112323",
+            "have_password": 0,
+            "price": 0,
+            "type": "音频"
+        }
+    ]
+
+}

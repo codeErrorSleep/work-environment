@@ -1,0 +1,37 @@
+theme = "onedark"
+
+[editor]
+line-number = "relative"
+# mouse = false
+bufferline = "multiple"
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+git-ignore = false
+
+[keys.normal]
+C-s = ":w" # Maps the Ctrl-s to the typable command :w which is an alias for :write (save file)
+
+
+[keys.insert]
+j = { j = "normal_mode" }
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name"]
+right = ["diagnostics", "selections", "position", "file-encoding", "total-line-numbers", "file-type"]
+separator = "│"
+mode.normal = "🐍🐍🐍🐍🐍"
+mode.insert = "👺👺👺👺👺"
+mode.select = "👀👀👀👀👀"
+
+[editor.indent-guides]
+render = true
+character = "╎" # Some characters that work well: "▏", "┆", "┊", "⸽"
+skip-levels = 1
+
